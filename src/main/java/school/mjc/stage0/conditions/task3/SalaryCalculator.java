@@ -7,13 +7,13 @@ public class SalaryCalculator {
             System.out.println("wrong input");
         }
         if (salary > 0 && salary <= 10000) {
-            System.out.println(salar * 15 / 100);
+            System.out.println(salary - salar * 15 / 100);
         }
         if (salary > 10000 && salary <= 20000) {
-            System.out.println(salar * 18 / 100);
+            System.out.println(salary - salar * 18 / 100);
         }
         if (salary > 20000) {
-            System.out.println(salar * 20 / 100);
+            System.out.println(salary - salar * 20 / 100);
         }
 
     }
