@@ -4,7 +4,7 @@ public class SalaryCalculator {
     public void calculateSalary(int salary) {
         float salar = salary;
         if (salary < 0) {
-            System.out.println("wrong input");
+            System.out.println("wrong input!");
         }
         if (salary > 0 && salary <= 10000) {
             System.out.println(salary - salar * 15 / 100);

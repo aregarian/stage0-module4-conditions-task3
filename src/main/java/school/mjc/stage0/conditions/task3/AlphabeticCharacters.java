@@ -5,9 +5,10 @@ public class AlphabeticCharacters {
         if (character < 'a' || character > 'z') {
             System.out.println("wrong alphabet!");
         }
-        if(character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u' )
+        if(character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u' ) {
             System.out.println("Vowel");
-        else
+        } else {
             System.out.println("Consonant");
+        }
     }
 }
